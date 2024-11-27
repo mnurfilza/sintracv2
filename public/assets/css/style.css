@@ -1280,3 +1280,40 @@ a:focus {
 .image-wrapper img {
   max-width: 100%; /* Ukuran gambar (sesuaikan sesuai kebutuhan) */
 }
+
+.card{
+
+	background-color: #fff;
+	border:none;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.bg-detail {
+  background-color: #f07b26;
+  height: 340px; /* Sesuaikan tinggi latar putih */
+}
+
+.wrapper-title-product{
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+      font-size: 1rem; /* Perkecil ukuran font pada layar kecil */
+  }
+}
+
+.list-group-item {
+  background-color: black; /* Atur background menjadi hitam */
+  color: white;           /* Atur teks menjadi putih untuk kontras */
+}
+
+.list-group-item-transparent {
+  background-color: transparent; /* Atur background menjadi transparan */
+}

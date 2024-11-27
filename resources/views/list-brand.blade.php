@@ -1,5 +1,5 @@
 @extends('layouts.app-product')
-@section('products')
+@section('brands')
 @include('layouts.navbars.guest.nav')
 <div class="">
     <!-- Background putih -->
@@ -11,7 +11,7 @@
                   <p class="fs-5 text-center text-white">{{ $hero['text'] }}</p>
               </div>
               <div class="col-md-6 d-flex justify-content-center align-items-center">
-                  <img src="{{ $hero['image'] }}" alt="Hydraulic Forklift" class="img-fluid rounded">
+                  <img src="{{ asset($hero['image']) }}" alt="Hydraulic Forklift" class="img-fluid rounded">
               </div>
           </div>
       </div>
@@ -28,11 +28,11 @@
       @foreach ($cards as $card)
           <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card h-100">
-                  <img src="{{ $card['image'] }}" class="card-img-top img-fluid" alt="{{ $card['title'] }}">
+                  <img src="{{ asset($card['image']) }}" class="card-img-top img-fluid" alt="{{ $card['title'] }}">
                   <div class="card-body">
                       <h5 class="card-title">{{ $card['title'] }}</h5>
                       <p class="card-text">{{ $card['text'] }}</p>
-                      <a href="/products/brand/{{ $card['brand_id'] }}" class="btn btn-primary w-100">Go somewhere</a>
+                      <a href="/products/brand/type/{{ $card['id'] }}" class="btn btn-primary w-100">Go somewhere</a>
                   </div>
               </div>
           </div>

@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="" href="index.html">
-          <img src="../assets/img/naming_logo.png" alt="" class="brand-logo">
+          <img src="{{'/assets/img/naming_logo.png'}}" alt="" class="brand-logo">
         </a>
         </a>
 

@@ -1,5 +1,5 @@
 @extends('layouts.app-product')
-@section('products')
+@section('type')
 @include('layouts.navbars.guest.nav')
 <div class="">
     <!-- Background putih -->
@@ -32,7 +32,7 @@
                   <div class="card-body">
                       <h5 class="card-title">{{ $card['title'] }}</h5>
                       <p class="card-text">{{ $card['text'] }}</p>
-                      <a href="/products/brand/{{ $card['brand_id'] }}" class="btn btn-primary w-100">Go somewhere</a>
+                      <a href="/product/detail/{{ $card['id'] }}" class="btn btn-primary w-100">Go somewhere</a>
                   </div>
               </div>
           </div>
