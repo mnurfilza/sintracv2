@@ -217,7 +217,8 @@
       </div>
     </div>
   </div>
-</section
+</section>
+
 
 <section class="info_section ">
 
@@ -226,7 +227,7 @@
         <a href="">
           <i class="fa fa-phone" aria-hidden="true"></i>
           <span>
-            Call : +62812 1960 6299
+            Call : 0812 1960 6299
           </span>
         </a>
         <a href="">
@@ -344,4 +345,6 @@
       </p>
     </div>
   </footer>
+
+ 
 @endsection
