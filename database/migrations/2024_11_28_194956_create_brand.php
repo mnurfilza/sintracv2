@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('brand', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->text('desc');
+            $table->text('thumbnail');
+            $table->unsignedBigInteger('sub_category_id'); 
+            $table->foreign('sub_category_id')->references('id')->on('sub_category')->onDelete('cascade');
             $table->timestamps();
         });
     }
