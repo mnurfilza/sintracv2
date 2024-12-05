@@ -176,4 +176,48 @@ class HomeController extends Controller
         ]);
     }
 
+    public function sub_category(string $category)
+    {
+        $result = DB::table('category')->select('category.id as category_id','category.title as category_title','sub_category.*')
+        ->leftJoin('sub_category','sub_category.category_id','=','category.id')
+        ->where('category.id', '=', $category)->get();
+        $processedData = [];
+
+        foreach ($result as $item) {
+            $categoryId = $item->category_id;
+
+            // Jika sub_category belum ada, tambahkan data sub_category
+            if (!isset($processedData[$categoryId])) {
+                $processedData[$categoryId] = [
+                    'id' => $item->category_id,
+                    'title' => $item->category_title,
+                    'desc' => $item->desc,
+                    'sub_category' => [] // Menambahkan array 'brand' untuk menampung brand
+                ];
+            }
+
+            // Tambahkan brand ke dalam sub_category jika brand id ada
+            if ($item->id) {
+                $processedData[$categoryId]['sub_category'][] = [
+                    'id' => $item->id,
+                    'title' => $item->title,
+                    'thumbnail' => $item->thumbnail,
+                    'text'=>$item->desc
+                ];
+            }
+        }
+
+        // Hasilkan data yang sudah diproses
+        $processedData = array_values($processedData);
+        // Tampilkan hasil
+       
+
+        // echo "<pre>";
+        // print_r($processedData);
+        // echo "</pre>";
+        // die();
+
+        return view('list-sub-category', ['data' => $processedData]);
+    }
+
 }

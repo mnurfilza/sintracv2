@@ -87,6 +87,7 @@ Route::group(['middleware' => 'guest'], function () {
 
 
 Route::get('/', [HomeController::class, 'home']);
+Route::get("/sub-category/{category}",[HomeController::class, 'sub_category']);
 Route::get("/products/{category}",[HomeController::class, 'products']);
 Route::get("/products/brand/{category}",[HomeController::class, 'brands']);
 Route::get("/products/brand/type/{id}",[HomeController::class, 'type']);

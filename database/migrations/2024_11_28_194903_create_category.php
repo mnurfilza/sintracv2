@@ -17,7 +17,6 @@ return new class extends Migration
             $table->text('desc');
             $table->text('thumbnail');
             $table->unsignedBigInteger('category_id'); 
-            $table->foreign('category_id')->references('id')->on('category')->onDelete('cascade');
             $table->timestamps();
         });
     }

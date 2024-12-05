@@ -14,9 +14,29 @@
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
                     <h1>
-                      ARCHITECT <br>
-                      BUILDER CONSTRUCTION <br>
-                      SERVICES
+                      PT Sintrac Niaga Indonesia </h1>
+                      <p class="text-white"> WE ARE BUSINESS SOLUTION AND WIN-WIN SOLUTION ABOUT YOUR PROJECT</p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      PT Sintrac Niaga Indonesia </h1>
+                      <p class="text-white"> WE ARE BUSINESS SOLUTION AND WIN-WIN SOLUTION ABOUT YOUR PROJECT</p>
                     </h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -37,10 +57,8 @@
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
                     <h1>
-                      ARCHITECT <br>
-                      BUILDER CONSTRUCTION <br>
-                      SERVICES
-                    </h1>
+                      PT Sintrac Niaga Indonesia </h1>
+                      <p class="text-white"> WE ARE BUSINESS SOLUTION AND WIN-WIN SOLUTION ABOUT YOUR PROJECT</p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -60,10 +78,8 @@
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
                     <h1>
-                      ARCHITECT <br>
-                      BUILDER CONSTRUCTION <br>
-                      SERVICES
-                    </h1>
+                      PT Sintrac Niaga Indonesia </h1>
+                      <p class="text-white"> WE ARE BUSINESS SOLUTION AND WIN-WIN SOLUTION ABOUT YOUR PROJECT</p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -83,33 +99,8 @@
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
                     <h1>
-                      ARCHITECT <br>
-                      BUILDER CONSTRUCTION <br>
-                      SERVICES
-                    </h1>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Contact Us
-                      </a>
-                      <a href="" class="btn2">
-                        About Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-10 mx-auto">
-                  <div class="detail-box">
-                    <h1>
-                      ARCHITECT <br>
-                      BUILDER CONSTRUCTION <br>
-                      SERVICES
-                    </h1>
+                      PT Sintrac Niaga Indonesia </h1>
+                      <p class="text-white"> WE ARE BUSINESS SOLUTION AND WIN-WIN SOLUTION ABOUT YOUR PROJECT</p>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -293,7 +284,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/hydraulic_forklift.webp" alt="" />
-                <a href="/products/brand/1" class="pin_link">
+                <a href="/sub-category/2" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>

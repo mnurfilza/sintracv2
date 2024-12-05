@@ -17,7 +17,7 @@
               <a class="nav-link">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Services</a>
+              <a class="nav-link">Product Support</a>
             </li>
             <li class="nav-item">
               <a class="nav-link"> About</a>
