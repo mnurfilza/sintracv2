@@ -292,14 +292,14 @@
           <div class="item materialhandling">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <img src="../assets/img/hydraulic_forklift.webp" alt="" />
+                <a href="/products/brand/1" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="detail-box">
                 <h5>
-                  Interior work
+                  Material Handling
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -312,13 +312,13 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/Forklift-Attachment/Bale-Clamp-Attachment.png" alt="" />
-                <a href="/products/forkliftattachment" class="pin_link">
+                <a href="/products/brand/1" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="detail-box">
                 <h5>
-                  Interior work
+                  Hydraulic Forklift
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly

@@ -1,17 +1,20 @@
 @extends('layouts.app-product')
-@section('brands')
+@section('products')
 @include('layouts.navbars.guest.nav')
+  
+@foreach ($data as $subCategory)
+
 <div class="">
     <!-- Background putih -->
     <div class="row bg-product rounded-3 position-relative">
       <div class="container py-5">
           <div class="row">
               <div class="col-md-6 d-flex flex-column justify-content-center align-items-center bg-image py-4">
-                  <h1 class="display-5 fw-bold text-center text-black">{{ $hero['title'] }}</h1>
-                  <p class="fs-5 text-center text-white">{{ $hero['text'] }}</p>
+                  <h1 class="display-5 fw-bold text-center text-black">{{ $subCategory['title'] }}</h1>
+                  <p class="fs-5 text-center text-white">{{ $subCategory['desc'] }}</p>
               </div>
               <div class="col-md-6 d-flex justify-content-center align-items-center">
-                  <img src="{{ asset($hero['image']) }}" alt="Hydraulic Forklift" class="img-fluid rounded">
+                  <img src="{{ asset('assets/img/'.$subCategory['thumbnail']) }}" alt="Hydraulic Forklift" class="img-fluid rounded">
               </div>
           </div>
       </div>
@@ -23,22 +26,24 @@
     <!-- Gambar di tengah -->
 </div>
 
-<div class="container">
+<div class="container mb-5">
   <div class="row g-4">
-      @foreach ($cards as $card)
+    @foreach ($subCategory['brand'] as $card)
           <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="card h-100">
-                  <img src="{{ asset($card['image']) }}" class="card-img-top img-fluid" alt="{{ $card['title'] }}">
+                  <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top img-fluid" alt="{{ $card['name'] }}">
                   <div class="card-body">
-                      <h5 class="card-title">{{ $card['title'] }}</h5>
-                      <p class="card-text">{{ $card['text'] }}</p>
-                      <a href="/products/brand/type/{{ $card['id'] }}" class="btn btn-primary w-100">Go somewhere</a>
+                      <h5 class="card-title">{{ $card['name'] }}</h5>
+                      <p class="card-text">{{ $card['desc'] }}</p>
+                      <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Go somewhere</a>
                   </div>
               </div>
           </div>
-      @endforeach
+          @endforeach
+
   </div>
 </div>
+@endforeach
 
 <section class="info_section ">
 
