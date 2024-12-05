@@ -178,7 +178,7 @@ class HomeController extends Controller
 
     public function sub_category(string $category)
     {
-        $result = DB::table('category')->select('category.id as category_id','category.title as category_title','sub_category.*')
+        $result = DB::table('category')->select('category.id as category_id','category.title as category_title','category.desc as category_desc','sub_category.*')
         ->leftJoin('sub_category','sub_category.category_id','=','category.id')
         ->where('category.id', '=', $category)->get();
         $processedData = [];
@@ -191,7 +191,7 @@ class HomeController extends Controller
                 $processedData[$categoryId] = [
                     'id' => $item->category_id,
                     'title' => $item->category_title,
-                    'desc' => $item->desc,
+                    'desc' => $item->category_desc,
                     'sub_category' => [] // Menambahkan array 'brand' untuk menampung brand
                 ];
             }
