@@ -5,7 +5,7 @@ deployment:
     - /bin/cp -R $DEPLOY_PATH/public/* /home/sintraci/public_html
     - cd $DEPLOY_PATH
     - /bin/cp .env.example .env
-    - /usr/local/bin/composer install --no-dev --optimize-autoloader
+    - /opt/cpanel/composer/bin/composer install --no-dev --optimize-autoloader
     - php artisan config:clear
     - php artisan cache:clear
     - php artisan config:cache
