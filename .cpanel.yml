@@ -1,7 +1,7 @@
 deployment:
   tasks:
     - echo "Starting deployment..."
-    - export DEPLOY_PATH=/home/sintraci/public_html/sintracv2
+    - export DEPLOY_PATH=/home/sintraci/repositories/sintracv2
     - /bin/rm -rf $DEPLOY_PATH
     - /bin/cp -R . $DEPLOY_PATH
     - /bin/cp -R ./public/* /home/username/public_html
