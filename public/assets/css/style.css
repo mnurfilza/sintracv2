@@ -1317,3 +1317,81 @@ a:focus {
 .list-group-item-transparent {
   background-color: transparent; /* Atur background menjadi transparan */
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* Ubah dari left ke right */
+  z-index: 1000;
+}
+.whatsapp-button img {
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.whatsapp-button img:hover {
+  transform: scale(1.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.breadcrumb {
+  background-color: transparent; /* Hilangkan latar belakang default */
+  padding: 0;
+  margin-bottom: 1rem; /* Spasi bawah */
+}
+
+.breadcrumb-item a {
+  color: #f7931e; /* Oranye untuk link */
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline; /* Efek hover */
+}
+
+.breadcrumb-item.active {
+  color: #000; /* Hitam untuk item aktif */
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    justify-content: center; /* Pusatkan di layar kecil */
+    font-size: 0.9rem; /* Kurangi ukuran font */
+  }
+}
+.section-title {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent-color);
+  margin: 4px 10px;
+}
+
+.section-title p {
+  color: var(--heading-color);
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

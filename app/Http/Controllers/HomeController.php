@@ -116,64 +116,45 @@ class HomeController extends Controller
     }
 
     public function type(string $id)
-    {
 
-        $hero = [
-            "title"=>"Hydraulic Forklift",
-            "image" => "../assets/img/hydraulic_forklift.webp",
-            "text" => "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        {
 
-        ];
-        $cards = [
-            [
-                "title" => "Card Title 1",
-                "text" => "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "t001"
-            ],
-            [
-                "title" => "Card Title 2",
-                "text" => "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ],
-            [
-                "title" => "Card Title 3",
-                "text" => "SSome quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ],
-            [
-                "title" => "Card Title 3",
-                "text" => "SSome quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ],
-            [
-                "title" => "Card Title 3",
-                "text" => "SSome quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ],
-            [
-                "title" => "Card Title 3",
-                "text" => "SSome quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ],
-            [
-                "title" => "Card Title 3",
-                "text" => "SSome quick example text to build on the card title and make up the bulk of the card's content.",
-                "image" => "../assets/img/hydraulic_forklift.webp",
-                "id" => "#"
-            ]
-            ];
-
-
-        return view('list-type', [
-            'cards' => $cards,
-            'hero' => $hero
-        ]);
+            $result = DB::table('product')->select('product.id as product_id','product.name as product_name','product.desc as product_desc','product.thumbnail as product_thumbnail','type_product.*')
+            ->leftJoin('type_product','product.id','=','type_product.product_id')
+            ->where('product_id', '=', $id)->get();
+            $processedData = [];
+    
+            foreach ($result as $item) {
+                $productId = $item->product_id;
+    
+                // Jika sub_category belum ada, tambahkan data sub_category
+                if (!isset($processedData[$productId])) {
+                    $processedData[$productId] = [
+                        'id' => $item->product_id,
+                        'title' => $item->product_name,
+                        'text' => $item->product_desc,
+                        'image' => $item->product_thumbnail,
+                        'types' => [] // Menambahkan array 'brand' untuk menampung brand
+                    ];
+                }
+    
+                // Tambahkan brand ke dalam sub_category jika brand id ada
+                if ($item->id) {
+                    $processedData[$productId]['types'][] = [
+                        'id' => $item->id,
+                        'title' => $item->label,
+                        'image' => $item->thumbnail,
+                        'text'=>$item->desc
+                    ];
+                }
+            }
+    
+            // Hasilkan data yang sudah diproses
+            $processedData = array_values($processedData);
+            // Tampilkan hasil
+           
+    
+            return view('list-type', ['data' => $processedData]);
     }
 
     public function sub_category(string $category)

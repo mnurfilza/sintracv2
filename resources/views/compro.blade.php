@@ -204,7 +204,7 @@
 
   <!-- about section -->
 
-  <section class="about_section">
+  <section class="about_section" id='about_section'>
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
@@ -256,7 +256,7 @@
 
   <!-- project section -->
 
-  <section class="project_section layout_padding">
+  <section class="project_section layout_padding" id='project_sections'>
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -269,11 +269,11 @@
             Category filter
           </h6>
           <nav class="owl-filter-bar">
-            <a href="#" class="item active" data-owl-filter="*">All</a>
+            <a href="#" class="item" data-owl-filter="*">All</a>
             <a href="#" class="item" data-owl-filter=".materialhandling">Material Handling</a>
+            <a href="#" class="item" data-owl-filter=".earthmover">Earth Mover</a>
             <a href="#" class="item" data-owl-filter=".forkliftattachment">Forklift Attachment</a>
             <a href="#" class="item" data-owl-filter=".powergenerator">Power Generator</a>
-            <a href="#" class="item" data-owl-filter=".earthmover">Earth Mover</a>
             <a href="#" class="item" data-owl-filter=".spareparts">spareparts Support</a>
             <a href="#" class="item" data-owl-filter=".pompa">pompa</a>
           </nav>
@@ -284,25 +284,6 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/hydraulic_forklift.webp" alt="" />
-                <a href="/sub-category/2" class="pin_link">
-                  <i class="fa fa-link" aria-hidden="true"></i>
-                </a>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Material Handling
-                </h5>
-                <p>
-                  alteration in some form, by injected humour, or randomised words which don't look even slightly
-                  believable. If you are going to use
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="item forkliftattachment">
-            <div class="box">
-              <div class="img-box">
-                <img src="../assets/img/Forklift-Attachment/Bale-Clamp-Attachment.png" alt="" />
                 <a href="/products/brand/1" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -318,17 +299,17 @@
               </div>
             </div>
           </div>
-          <div class="item repair">
+          <div class="item materialhandling">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <img src="../assets/img/stack_crane.webp" alt="" />
+                <a href="/products/brand/2" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="detail-box">
                 <h5>
-                  Interior work
+                  Stack Container
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -337,17 +318,17 @@
               </div>
             </div>
           </div>
-          <div class="item residential">
+          <div class="item materialhandling">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <img src="../assets/img/hydraulic_crane.webp" alt="" />
+                <a href="/products/brand/3" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="detail-box">
                 <h5>
-                  Interior work
+                  Hydraulic Crane
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -356,7 +337,83 @@
               </div>
             </div>
           </div>
-          <div class="item styling">
+          <div class="item earthmover">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/backhoe-loader.webp" alt="" />
+                <a href="/products/brand/1" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Backhoe Loader
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item earthmover">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/hydraulic-excavator.webp" alt="" />
+                <a href="/products/brand/1" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                 Hydraulic Excavator
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item earthmover">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/motor-grader.webp" alt="" />
+                <a href="/products/brand/1" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                 Motor Grader
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item earthmover">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/mini-excavator.webp" alt="" />
+                <a href="/products/brand/1" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                 Mini Excavator
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item forkliftattachment">
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/project1.jpg" alt="" />
@@ -366,7 +423,64 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Interior work
+                  Forklift Attachement
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item powergenerator">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/power-generetor.webp" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Power Generator
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item spareparts">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/project1.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Spareparts Supports
+                </h5>
+                <p>
+                  alteration in some form, by injected humour, or randomised words which don't look even slightly
+                  believable. If you are going to use
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item pompa">
+            <div class="box">
+              <div class="img-box">
+                <img src="../assets/img/project1.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                 Pompa
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -526,13 +640,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Project done on time
+              Extensive Range of Equipment
             </h5>
             <p>
-              Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-              Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the
+              We offer a wide selection of high-quality heavy machinery for both sale and rental, tailored to various industries like construction, mining, agriculture, and more.
             </p>
           </div>
         </div>
@@ -542,13 +653,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Always avaliable
+              Reliable Performance
             </h5>
             <p>
-              Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-              Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the
+              Our equipment undergoes rigorous maintenance and quality checks to ensure reliability and peak performance, minimizing downtime and maximizing productivity.
             </p>
           </div>
         </div>
@@ -558,13 +666,10 @@
           </div>
           <div class="detail-box">
             <h5>
-              Professional and responsible
+              Competitive Pricing
             </h5>
             <p>
-              Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-              Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-              going through the
+              Whether you're buying or renting, we provide cost-effective solutions to fit your budget without compromising on quality.
             </p>
           </div>
         </div>
@@ -615,9 +720,7 @@
         </div>
         <div class="col-lg-7 col-md-6 px-0">
           <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
+            <div class="mapswrapper"><iframe width="750" height="350" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=%20Ruko%20Garden%20Hous%20BG%201%20no%2026%20%2C%20kelurahan%20lambangjaya%2C%20kecamatan%20tambun%20selatan%20%2C%20kabupaten%20bekasi%20%2C%20Jawa%20barat%2017510&zoom=15&maptype=roadmap"></iframe><a href="https://www.zrivo.com/i-9-form">i9 form</a><style>.mapswrapper{background:#fff;position:relative}.mapswrapper iframe{border:0;position:relative;z-index:2}.mapswrapper a{color:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:0}</style></div>
           </div>
         </div>
       </div>
@@ -740,7 +843,6 @@
     </div>
   </section>
   <!-- end info_section -->
-
 
   <!-- footer section -->
   <footer class="footer_section">

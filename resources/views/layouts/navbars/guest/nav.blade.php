@@ -14,19 +14,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Product Support</a>
+              <a class="nav-link" href="#project_sections">Product Support <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"> About</a>
+              <a class="nav-link" href="#about_section"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Testimonial</a>
+              <a class="nav-link" href="#about_section">Testimonial</a>
             </li>
          
           </ul>

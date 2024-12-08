@@ -1,7 +1,7 @@
 @extends('layouts.app-product')
 @section('products')
 @include('layouts.navbars.guest.nav')
-  
+
 @foreach ($data as $subCategory)
 
 <div class="">
@@ -19,33 +19,49 @@
           </div>
       </div>
   </div>
+ 
     
     <!-- Background oranye -->
-    <div class="bg-orange position-relative" style="height: 200px;">
+    <div class="bg-orange position-relative" style="height: 90px;">
     </div>
     <!-- Gambar di tengah -->
+</div>
+
+<div class="container">
+  <nav aria-label="breadcrumb" class="d-flex justify-content-end">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Products</li>
+    </ol>
+  </nav>
+</div>
+
+<div class="container section-title aos-init aos-animate" data-aos="fade-up">
+  <h2>{{ $subCategory['title'] }}</h2>
+  <p>Sample Our Products Partner</p>
 </div>
 
 <div class="container mb-5">
   <div class="row g-4">
     @foreach ($subCategory['brand'] as $card)
-          <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card h-100">
-                  <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top img-fluid" alt="{{ $card['name'] }}">
-                  <div class="card-body">
-                      <h5 class="card-title">{{ $card['name'] }}</h5>
-                      <p class="card-text">{{ $card['desc'] }}</p>
-                      <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Go somewhere</a>
-                  </div>
-              </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card h-100">
+          <!-- Gambar dengan ukuran tetap -->
+          <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top img-fluid" alt="{{ $card['name'] }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ $card['name'] }}</h5>
+            <!-- Deskripsi pendek -->
+            <p class="card-text">{{ $card['desc'] }}</p>
+            <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Explore</a>
           </div>
-          @endforeach
-
+        </div>
+      </div>
+    @endforeach
   </div>
 </div>
 @endforeach
 
-<section class="info_section ">
+<section class="info_section">
 
     <div class="container">
       <div class="contact_nav">
@@ -93,22 +109,22 @@
               </h5>
               <div class="post_box">
                 <div class="img-box">
-                  <img src="../assets/img/instagram/testi1.jpeg" alt="">
+                  <img src="{{asset('../assets/img/instagram/testi1.jpeg')}}" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram/testi2.jpeg  " alt="">
+                  <img src="{{asset('../assets/img/instagram/testi2.jpeg')}}"  alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram/testi3.jpeg" alt="">
+                  <img src="{{asset('../assets/img/instagram/testi3.jpeg')}}"  alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="{{asset('../assets/img/instagram.jpg')}}" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="{{asset('../assets/img/instagram.jpg')}}" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="{{asset('../assets/img/instagram.jpg')}}" alt="">
                 </div>
               </div>
             </div>
@@ -133,7 +149,7 @@
           <div class="col-md-4">
             <div class="info_logo">
               <a href="">
-                <img src="../assets/img/sintrac-white.png" alt="" class="footer-logo">
+                <img src="{{asset('../assets/img/sintrac-white.png')}}" alt="" class="footer-logo">
               </a>
             </div>
           </div>

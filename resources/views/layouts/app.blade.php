@@ -38,7 +38,12 @@
 <body>
 
   @yield('content')
- 
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+6281219606299" target="_blank">
+      <img src="https://img.icons8.com/color/70/whatsapp--v1.png" alt="WhatsApp">
+    </a>
+  </div>
+
   <!-- jQery -->
   <script src="../assets/js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->

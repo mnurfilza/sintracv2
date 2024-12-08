@@ -14,7 +14,7 @@ var owl = $('.project_carousel').owlCarousel({
     loop: false,
     margin: 15,
     center: true,
-    startPosition: 2,
+    startPosition: 1,
     autoplay: true,
     navText: [
         '<i class="fa fa-angle-left" aria-hidden="true"></i>',
@@ -51,13 +51,7 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
     e.preventDefault();
 })
 /** google_map js **/
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -86,3 +80,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // Mulai animasi
     scrollMenu();
   });
+
+//   function initMap() {
+//     // Koordinat lokasi
+//     const location = { lat: -6.2933889, lng: 107.0560278 };
+
+//     // Buat peta
+//     const map = new google.maps.Map(document.getElementById("map"), {
+//         zoom: 17, // Tingkat zoom
+//         center: location, // Titik tengah peta
+//     });
+
+//     // Tambahkan marker di lokasi tersebut
+//     const marker = new google.maps.Marker({
+//         position: location,
+//         map: map,
+//         title: "Lokasi Anda",
+//     });
+// }
+
+// // Panggil fungsi initMap setelah peta dimuat
+// window.onload = initMap;
