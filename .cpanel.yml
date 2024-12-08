@@ -6,6 +6,7 @@ deployment:
     - cd $DEPLOY_PATH
     - /bin/cp .env.example .env
     - /opt/cpanel/composer/bin/composer install --no-dev --optimize-autoloader
+    - php artisan key:generate
     - php artisan config:clear
     - php artisan cache:clear
     - php artisan config:cache
