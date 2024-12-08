@@ -2,7 +2,7 @@ deployment:
   tasks:
     - echo "Starting deployment..."
     - export DEPLOY_PATH=/home/sintraci/repositories/sintracv2
-    - /bin/cp -R $DEPLOY_PATH/public/* /home/username/public_html
+    - /bin/cp -R $DEPLOY_PATH/public/* /home/sintraci/public_html
     - cd $DEPLOY_PATH
     - /bin/cp .env.example .env
     - composer install --no-dev --optimize-autoloader
