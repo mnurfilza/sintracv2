@@ -4,8 +4,9 @@ deployment:
     - export DEPLOY_PATH=/home/sintraci/public_html/sintracv2
     - /bin/rm -rf $DEPLOY_PATH
     - /bin/cp -R . $DEPLOY_PATH
-    - /bin/cp -R public/* /home/username/public_html
+    - /bin/cp -R ./public/* /home/username/public_html
     - cd $DEPLOY_PATH
+    - /bin/cp .env.example .env
     - composer install --no-dev --optimize-autoloader
     - php artisan config:clear
     - php artisan cache:clear
