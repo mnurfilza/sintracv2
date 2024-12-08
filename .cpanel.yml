@@ -1,8 +1,15 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sintraci/public_html/sintracv2
-    - /bin/cp -R images $DEPLOYPATH
-    - composer install
-    - /bin/cp  .env.example .env $DEPLOYPATH
-    - php artisan key:generate
-    - php artisan migrate --seed
+    - echo "Starting deployment..."
+    - export DEPLOY_PATH=/home/sintraci/public_html/sintracv2
+    - /bin/rm -rf $DEPLOY_PATH
+    - /bin/cp -R . $DEPLOY_PATH
+    - /bin/cp -R public/* /home/username/public_html
+    - cd $DEPLOY_PATH
+    - composer install --no-dev --optimize-autoloader
+    - php artisan config:clear
+    - php artisan cache:clear
+    - php artisan config:cache
+    - php artisan route:cache
+    - php artisan migrate --force
+    - echo "Deployment finished."
