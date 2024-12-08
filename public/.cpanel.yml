@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sintraci/sintracv2
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp  .env.example .env
+    - php artisan key:generate
+    - php artisan migrate --seed
