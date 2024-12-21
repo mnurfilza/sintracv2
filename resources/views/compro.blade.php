@@ -341,7 +341,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/backhoe-loader.webp" alt="" />
-                <a href="/products/brand/3" class="pin_link">
+                <a href="/products/brand/6" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
@@ -360,7 +360,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/hydraulic-excavator.webp" alt="" />
-                <a href="/products/brand/3" class="pin_link">
+                <a href="/products/brand/7" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
@@ -379,7 +379,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/motor-grader.webp" alt="" />
-                <a href="/products/brand/3" class="pin_link">
+                <a href="/products/brand/8" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
@@ -398,7 +398,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/mini-excavator.webp" alt="" />
-                <a href="/products/brand/3" class="pin_link">
+                <a href="/products/brand/9" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
