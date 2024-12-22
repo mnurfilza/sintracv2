@@ -1415,13 +1415,7 @@ html {
   overflow: hidden;
 }
 
-/* Gambar dengan ukuran asli */
-.image-container img {
-  max-width: 100%; /* Gambar tidak lebih lebar dari kontainer */
-  max-height: 100%; /* Gambar tidak lebih tinggi dari kontainer */
-  width: auto; /* Pertahankan proporsi lebar gambar */
-  height: auto; /* Pertahankan proporsi tinggi gambar */
-}
+
 
 /* Tambahkan gaya lainnya jika diperlukan */
 .card-body {
