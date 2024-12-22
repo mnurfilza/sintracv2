@@ -49,10 +49,13 @@
         <div class="image-container">
           <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top" alt="{{ $card['name'] }}">
         </div>
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{ $card['name'] }}</h5>
           <p class="card-text">{{ $card['desc'] }}</p>
-          <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Explore</a>
+          <!-- Spacer untuk mendorong tombol ke bawah -->
+          <div class="mt-auto">
+            <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Explore</a>
+          </div>
         </div>
       </div>
     </div>
