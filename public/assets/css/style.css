@@ -1396,23 +1396,29 @@ html {
   text-transform: uppercase;
 }
 
-/* Kartu dengan tinggi seragam */
+/* Kartu seragam */
 .custom-card {
-  height: 400px; /* Sesuaikan tinggi kartu */
+  height: auto; /* Mengizinkan kartu menyesuaikan tinggi secara otomatis */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* Container untuk gambar */
+/* Container gambar */
 .image-container {
   width: 100%;
-  height: 200px; /* Tinggi tetap untuk container gambar */
+  aspect-ratio: 16 / 9; /* Memberikan rasio tetap untuk kontainer gambar */
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0; /* Warna latar untuk ruang kosong */
-  overflow: hidden;
+}
+
+/* Gambar */
+.image-container img {
+  width: auto; /* Membiarkan lebar gambar menyesuaikan */
+  height: 100%; /* Gambar memenuhi tinggi kontainer */
+  object-fit: contain; /* Gambar tidak akan dipotong */
 }
 
 
