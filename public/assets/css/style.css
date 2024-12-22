@@ -1396,36 +1396,26 @@ html {
   text-transform: uppercase;
 }
 
-/* Kartu dengan dimensi lebih kecil */
-.small-card {
-  height: 300px; /* Tinggi total kartu lebih kecil */
+/* Kartu dinamis */
+.dynamic-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: auto; /* Membiarkan kartu menyesuaikan tinggi */
 }
 
-/* Container gambar */
+/* Kontainer gambar dinamis */
 .image-container {
   width: 100%;
-  height: 150px; /* Tinggi gambar lebih kecil */
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  padding: 10px; /* Opsional, untuk memberi ruang di sekitar gambar */
 }
 
-/* Gambar */
+/* Gambar mempertahankan ukuran asli */
 .image-container img {
-  width: auto;
-  height: 100%; /* Gambar tetap tinggi penuh */
-  object-fit: contain; /* Gambar tidak terdistorsi atau dipotong */
-}
-
-
-/* Tambahkan gaya lainnya jika diperlukan */
-.card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  max-width: 100%; /* Gambar tidak melampaui lebar kontainer */
+  height: auto; /* Proporsi gambar tetap terjaga */
 }

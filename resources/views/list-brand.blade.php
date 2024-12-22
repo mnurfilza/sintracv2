@@ -45,7 +45,7 @@
   <div class="row g-4">
     @foreach ($subCategory['brand'] as $card)
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card h-100 small-card">
+      <div class="card h-100 dynamic-card">
         <div class="image-container">
           <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top" alt="{{ $card['name'] }}">
         </div>
