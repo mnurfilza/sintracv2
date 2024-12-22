@@ -201,4 +201,9 @@ class HomeController extends Controller
         return view('list-sub-category', ['data' => $processedData]);
     }
 
+    public function compro() {
+        return view('compro');
+    }
 }
+
+
