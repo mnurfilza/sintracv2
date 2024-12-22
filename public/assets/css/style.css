@@ -1398,30 +1398,29 @@ html {
 
 /* Kartu dengan tinggi seragam */
 .custom-card {
-  height: 400px; /* Tinggi tetap untuk seluruh kartu */
+  height: 400px; /* Sesuaikan tinggi kartu */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* Container gambar */
+/* Container untuk gambar */
 .image-container {
   width: 100%;
-  height: 200px; /* Tinggi tetap untuk gambar */
+  height: 200px; /* Tinggi tetap untuk container gambar */
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Potong bagian yang berlebih */
-  background-color: #f0f0f0; /* Latar belakang untuk ruang kosong */
-  border-radius: 8px; /* Opsional, untuk sudut melengkung */
+  background-color: #f0f0f0; /* Warna latar untuk ruang kosong */
+  overflow: hidden;
 }
 
-/* Gambar di dalam container */
+/* Gambar dengan ukuran asli */
 .image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* Mengisi container dengan memotong sedikit */
-  object-position: center; /* Fokus pada bagian tengah gambar */
+  max-width: 100%; /* Gambar tidak lebih lebar dari kontainer */
+  max-height: 100%; /* Gambar tidak lebih tinggi dari kontainer */
+  width: auto; /* Pertahankan proporsi lebar gambar */
+  height: auto; /* Pertahankan proporsi tinggi gambar */
 }
 
 /* Tambahkan gaya lainnya jika diperlukan */
