@@ -44,18 +44,18 @@
 <div class="container mb-5">
   <div class="row g-4">
     @foreach ($subCategory['brand'] as $card)
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card h-100">
-          <!-- Gambar dengan ukuran tetap -->
-          <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top img-fluid" alt="{{ $card['name'] }}">
-          <div class="card-body">
-            <h5 class="card-title">{{ $card['name'] }}</h5>
-            <!-- Deskripsi pendek -->
-            <p class="card-text">{{ $card['desc'] }}</p>
-            <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Explore</a>
-          </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100 custom-card">
+        <div class="image-container">
+          <img src="{{ asset('assets/img/'.$card['thumbnail']) }}" class="card-img-top" alt="{{ $card['name'] }}">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ $card['name'] }}</h5>
+          <p class="card-text">{{ $card['desc'] }}</p>
+          <a href="/products/{{ $card['id'] }}" class="btn btn-primary w-100">Explore</a>
         </div>
       </div>
+    </div>
     @endforeach
   </div>
 </div>

@@ -1395,3 +1395,36 @@ html {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* Kartu dengan tinggi seragam */
+.custom-card {
+  height: 400px; /* Sesuaikan tinggi kartu */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Container untuk gambar */
+.image-container {
+  width: 100%;
+  height: 200px; /* Tinggi tetap untuk gambar */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gambar tetap dalam proporsi tanpa terpotong */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Menyesuaikan gambar tanpa terpotong */
+}
+
+/* Tambahkan gaya lainnya jika diperlukan */
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
