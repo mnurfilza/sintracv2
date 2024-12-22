@@ -1396,26 +1396,37 @@ html {
   text-transform: uppercase;
 }
 
-/* Kartu dinamis */
 .dynamic-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: auto; /* Membiarkan kartu menyesuaikan tinggi */
+  height: 100%; /* Pastikan tinggi kartu penuh dalam kolom grid */
 }
 
-/* Kontainer gambar dinamis */
+/* Kontainer gambar */
 .image-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 10px; /* Opsional, untuk memberi ruang di sekitar gambar */
+  padding: 10px;
 }
 
 /* Gambar mempertahankan ukuran asli */
 .image-container img {
-  max-width: 100%; /* Gambar tidak melampaui lebar kontainer */
-  height: auto; /* Proporsi gambar tetap terjaga */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Badan kartu */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Isi area fleksibel */
+}
+
+/* Tombol Explore */
+.card-body .btn {
+  margin-top: auto; /* Selalu mendorong tombol ke bawah */
 }
