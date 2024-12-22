@@ -1396,9 +1396,9 @@ html {
   text-transform: uppercase;
 }
 
-/* Kartu seragam */
-.custom-card {
-  height: auto; /* Mengizinkan kartu menyesuaikan tinggi secara otomatis */
+/* Kartu dengan dimensi lebih kecil */
+.small-card {
+  height: 300px; /* Tinggi total kartu lebih kecil */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1407,7 +1407,7 @@ html {
 /* Container gambar */
 .image-container {
   width: 100%;
-  aspect-ratio: 16 / 9; /* Memberikan rasio tetap untuk kontainer gambar */
+  height: 150px; /* Tinggi gambar lebih kecil */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -1416,11 +1416,10 @@ html {
 
 /* Gambar */
 .image-container img {
-  width: auto; /* Membiarkan lebar gambar menyesuaikan */
-  height: 100%; /* Gambar memenuhi tinggi kontainer */
-  object-fit: contain; /* Gambar tidak akan dipotong */
+  width: auto;
+  height: 100%; /* Gambar tetap tinggi penuh */
+  object-fit: contain; /* Gambar tidak terdistorsi atau dipotong */
 }
-
 
 
 /* Tambahkan gaya lainnya jika diperlukan */
