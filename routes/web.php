@@ -96,4 +96,4 @@ Route::get("/product/detail/{id}",[HomeController::class, 'detail']);
 Route::get('/login', function () {
     return view('session/login-session');
 })->name('login');
-Route::get('/compro', [HomeController::class, 'compro'])->name('compro');
+Route::get('/compro/{section?}', [HomeController::class, 'compro'])->name('compro');

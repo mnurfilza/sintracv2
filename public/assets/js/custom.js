@@ -101,3 +101,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // // Panggil fungsi initMap setelah peta dimuat
 // window.onload = initMap;
+
+
+function scrollToSection(sectionId) {
+    if (sectionId) {
+        const element = document.getElementById(sectionId);
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' }); // Scroll ke elemen dengan animasi
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sectionId = document.body.getAttribute('data-section'); // Ambil data-section dari atribut body
+    scrollToSection(sectionId);
+});

@@ -493,7 +493,7 @@
 
   <!-- testimonial -->
 
-  <section class="client_section layout_padding">
+  <section class="client_section layout_padding" id="client_section">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -728,7 +728,7 @@
 
     <div class="container">
       <div class="contact_nav">
-        <a href="">
+        <a href="https://wa.me/+6281219606299">
           <i class="fa fa-phone" aria-hidden="true"></i>
           <span>
             Call : 0812 1960 6299
@@ -848,5 +848,4 @@
       </p>
     </div>
   </footer>
-
   @endsection
