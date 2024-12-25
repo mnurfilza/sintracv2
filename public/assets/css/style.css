@@ -669,7 +669,7 @@ a:focus {
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
-  padding: 5px 10px;
+  padding: 2px 10px;
   font-weight: normal;
 }
 
@@ -680,7 +680,7 @@ a:focus {
 .project_section .filter_box .owl-filter-bar a {
   text-transform: uppercase;
   color: #252525;
-  padding: 0 10px;
+  padding: 0 5px;
   font-size: 15px;
 }
 
@@ -1430,3 +1430,5 @@ html {
 .card-body .btn {
   margin-top: auto; /* Selalu mendorong tombol ke bawah */
 }
+
+

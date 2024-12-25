@@ -270,7 +270,7 @@
             <a href="#" class="item" data-owl-filter=".forkliftattachment">Forklift Attachment</a>
             <a href="#" class="item" data-owl-filter=".powergenerator">Power Generator</a>
             <a href="#" class="item" data-owl-filter=".spareparts">spareparts Support</a>
-            <a href="#" class="item" data-owl-filter=".pompa">Compresor</a>
+            <a href="#" class="item" data-owl-filter=".pompa">Compressor</a>
           </nav>
         </div>
 
