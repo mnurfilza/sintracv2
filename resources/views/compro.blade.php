@@ -493,7 +493,7 @@
 
   <!-- testimonial -->
 
-  <section class="client_section layout_padding">
+  <section class="client_section layout_padding" id="client_section">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -848,5 +848,4 @@
       </p>
     </div>
   </footer>
-
   @endsection

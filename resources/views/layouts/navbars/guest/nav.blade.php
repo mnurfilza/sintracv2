@@ -13,17 +13,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="{{ route('compro')}}">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project_sections">Product Support <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{{ route('compro', ['section' => '#project_sections']) }}">Product Support <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about_section"> About</a>
+              <a class="nav-link" href="{{ route('compro', ['section' => '#about_section']) }}"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about_section">Testimonial</a>
+              <a class="nav-link" href="{{ route('compro', ['section' => '#client_section']) }}">Testimonial</a>
             </li>
          
           </ul>

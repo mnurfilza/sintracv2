@@ -35,7 +35,7 @@
 
 </head>
 
-<body>
+<body data-section="{{ $section ?? '' }}">
   @yield('brands')
   @yield('type')
   @yield('products')
