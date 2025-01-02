@@ -509,7 +509,7 @@
               <div class="col-md-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="../assets/img/client.jpg" alt="">
+                    <img src="../assets/img/testimoni1.webp" alt="">
                   </div>
                   <div class="detail-box">
                     <div class="client_info">
@@ -524,13 +524,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore
-                      et
-                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum
-                      dolore eu fugia
+                      Pelayanan sangat memuaskan! Alat beratnya berkualitas dan proses peminjamannya mudah. Pasti akan gunakan lagi untuk proyek berikutnya. Terima kasih!
                     </p>
                   </div>
                 </div>
@@ -544,7 +538,7 @@
               <div class="col-md-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="../assets/img/client.jpg" alt="">
+                    <img src="../assets/img/testimoni2.webp" alt="">
                   </div>
                   <div class="detail-box">
                     <div class="client_info">
@@ -559,13 +553,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore
-                      et
-                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum
-                      dolore eu fugia
+                      Alat beratnya dalam kondisi sangat baik, dan proses peminjamannya cepat. Sangat membantu untuk proyek kami. Terima kasih atas pelayanannya!
                     </p>
                   </div>
                 </div>
@@ -579,7 +567,7 @@
               <div class="col-md-10 mx-auto">
                 <div class="box">
                   <div class="img-box">
-                    <img src="../assets/img/client.jpg" alt="">
+                    <img src="../assets/img/testimoni3.webp" alt="">
                   </div>
                   <div class="detail-box">
                     <div class="client_info">
@@ -594,13 +582,123 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore
-                      et
-                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum
-                      dolore eu fugia
+                      Layanan profesional dan alat beratnya sangat terawat. Prosesnya mudah dan cepat. Sangat puas dengan pengalaman ini!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="../assets/img/testimoni4.webp" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Morojink
+                        </h5>
+                        <h6>
+                          Customer
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Sangat puas dengan layanan peminjaman alat beratnya! Alat berfungsi dengan baik, dan prosesnya sangat praktis. Terima kasih banyak!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="../assets/img/testimoni5.webp" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Morojink
+                        </h5>
+                        <h6>
+                          Customer
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Alat beratnya berkualitas dan tepat waktu. Sangat membantu untuk menyelesaikan pekerjaan kami. Layanan yang sangat bisa diandalkan!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="../assets/img/testimoni6.webp" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Morojink
+                        </h5>
+                        <h6>
+                          Customer
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Proses peminjaman cepat dan mudah. Alat beratnya sangat mendukung pekerjaan kami. Terima kasih atas pelayanannya!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="../assets/img/testimoni7.webp" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Morojink
+                        </h5>
+                        <h6>
+                          Customer
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Saya sangat puas dengan layanan peminjaman alat berat, Prosesnya sangat efisien dan timnya selalu responsif dalam membantu setiap kebutuhan kami. Alat berat yang disediakan dalam kondisi sangat baik
                     </p>
                   </div>
                 </div>
@@ -613,6 +711,11 @@
         <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
         <li data-target="#customCarousel2" data-slide-to="1"></li>
         <li data-target="#customCarousel2" data-slide-to="2"></li>
+        <li data-target="#customCarousel2" data-slide-to="3"></li>
+        <li data-target="#customCarousel2" data-slide-to="4"></li>
+        <li data-target="#customCarousel2" data-slide-to="5"></li>
+        <li data-target="#customCarousel2" data-slide-to="6"></li>
+
       </ol>
     </div>
   </section>
