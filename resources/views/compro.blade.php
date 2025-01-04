@@ -411,8 +411,8 @@
           <div class="item forkliftattachment">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <img src="../assets/img/Bale-Clamp-Attachment.webp" alt="" />
+                <a href="/products/42" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
