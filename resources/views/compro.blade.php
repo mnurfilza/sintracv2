@@ -450,7 +450,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <a href="/products/43" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
@@ -515,7 +515,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -544,7 +544,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -573,7 +573,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -602,7 +602,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -631,7 +631,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -660,7 +660,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
@@ -689,7 +689,7 @@
                     <div class="client_info">
                       <div class="client_name">
                         <h5>
-                          Morojink
+                          Sintrac
                         </h5>
                         <h6>
                           Customer
