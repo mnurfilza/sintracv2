@@ -449,7 +449,7 @@
           <div class="item spareparts">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
+                <img src="../assets/img/Continental_MH_MC20_black-Clean_30.webp" alt="" />
                 <a href="/products/43" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
