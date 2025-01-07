@@ -437,7 +437,7 @@
             <a href="">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/sintrac.id?igsh=MTQ3ZDB4MXlnZ2I2cQ==">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
