@@ -468,14 +468,14 @@
           <div class="item pompa">
             <div class="box">
               <div class="img-box">
-                <img src="../assets/img/project1.jpg" alt="" />
-                <a href="" class="pin_link">
+                <img src="../assets/img/Water Pump Yamamoto.webp" alt="" />
+                <a href="/products/44" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="detail-box">
                 <h5>
-                 Pompa
+                 Compressor
                 </h5>
                 <p>
                   alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -930,7 +930,7 @@
               <a href="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/sintrac.id?igsh=MTQ3ZDB4MXlnZ2I2cQ==">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
