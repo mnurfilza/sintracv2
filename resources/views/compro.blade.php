@@ -859,11 +859,10 @@
                 QUICK LINKS
               </h4>
               <div class="info_links_menu">
-                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="" href="service.html">Services</a>
-                <a class="" href="about.html"> About</a>
-                <a class="" href="project.html">Project</a>
-                <a class="" href="testimonial.html">Testimonial</a>
+                <a class="" href="{{ route('compro')}}">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="{{ route('compro', ['section' => '#project_sections']) }}">Product Support</a>
+                <a class="" href="{{ route('compro', ['section' => '#about_section']) }}"> About</a>
+                <a class="" href="{{ route('compro', ['section' => '#client_section']) }}">Testimonial</a>
                 <a class="" href="contact.html">Contact Us</a>
               </div>
             </div>
@@ -884,13 +883,13 @@
                   <img src="../assets/img/instagram/testi3.jpeg" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="../assets/img/testimoni7.webp" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="../assets/img/testimoni4.webp" alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram.jpg" alt="">
+                  <img src="../assets/img/testimoni3.webp" alt="">
                 </div>
               </div>
             </div>
