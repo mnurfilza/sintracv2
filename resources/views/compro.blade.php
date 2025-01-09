@@ -431,7 +431,7 @@
             <div class="box">
               <div class="img-box">
                 <img src="../assets/img/power-generetor.webp" alt="" />
-                <a href="" class="pin_link">
+                <a href="/products/brand/5" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
               </div>
@@ -880,7 +880,7 @@
                   <img src="../assets/img/instagram/testi2.jpeg  " alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram/testi3.jpeg" alt="">
+                  <img src="../assets/img/instagram/testimoni5.jpeg" alt="">
                 </div>
                 <div class="img-box">
                   <img src="../assets/img/testimoni7.webp" alt="">
