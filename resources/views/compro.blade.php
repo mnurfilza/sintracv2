@@ -880,7 +880,7 @@
                   <img src="../assets/img/instagram/testi2.jpeg  " alt="">
                 </div>
                 <div class="img-box">
-                  <img src="../assets/img/instagram/testi3.jpeg" alt="">
+                  <img src="../assets/img/instagram/testimoni5.jpeg" alt="">
                 </div>
                 <div class="img-box">
                   <img src="../assets/img/testimoni7.webp" alt="">
