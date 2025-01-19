@@ -47,6 +47,8 @@
   </div>
 
 
+  @include('layouts.footers.guest.footer')
+
   <!-- jQery -->
   <script src="{{asset('assets/js/jquery-3.4.1.min.js')}}"></script>
   <!-- popper js -->
