@@ -1,41 +1,124 @@
-  <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
-  <footer class="footer py-5">
+  <!-- info section -->
+  <section class="info_section ">
+
     <div class="container">
-      <div class="row">
-        @if (!auth()->user() || \Request::is('static-sign-up')) 
-          <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
-              <a href="https://dribbble.com/creativetim" target="_blank" class="text-secondary me-xl-4 me-4">
-                  <span class="text-lg fab fa-dribbble" aria-hidden="true"></span>
-              </a>
-              <a href="https://twitter.com/CreativeTim" target="_blank" class="text-secondary me-xl-4 me-4">
-                  <span class="text-lg fab fa-twitter" aria-hidden="true"></span>
-              </a>
-              <a href="https://www.instagram.com/creativetimofficial/" target="_blank" class="text-secondary me-xl-4 me-4">
-                  <span class="text-lg fab fa-instagram" aria-hidden="true"></span>
-              </a>
-              <a href="https://ro.pinterest.com/thecreativetim/" target="_blank" class="text-secondary me-xl-4 me-4">
-                  <span class="text-lg fab fa-pinterest" aria-hidden="true"></span>
-              </a>
-              <a href="https://github.com/creativetimofficial" target="_blank" class="text-secondary me-xl-4 me-4">
-                  <span class="text-lg fab fa-github" aria-hidden="true"></span>
-              </a>
-          </div>
-        @endif
+      <div class="contact_nav">
+        <a href="https://wa.me/+6281219606299">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>
+            Call : 0812 1960 6299
+          </span>
+        </a>
+        <a href="">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>
+            Email : sintracindonesia@gmail.com
+          </span>
+        </a>
+        <a href="https://maps.app.goo.gl/vW2kZzTeFdJDGBYVA">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <span>
+            Ruko Garden Hous BG 1 no 26 , kelurahan lambangjaya, kecamatan tambun selatan , kabupaten bekasi , Jawa barat 17510 
+          </span>
+        </a>
       </div>
-      @if (!auth()->user() || \Request::is('static-sign-up')) 
-        <div class="row">
-          <div class="col-8 mx-auto text-center mt-1">
-            <p class="mb-0 text-secondary">
-              Copyright © <script>
-                document.write(new Date().getFullYear())
-              </script> Soft by 
-              <a style="color: #252f40;" href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
-              &
-              <a style="color: #252f40;" href="https://www.updivision.com" class="font-weight-bold ml-1" target="_blank">UPDIVISION</a>.
-            </p>
+
+      <div class="info_top ">
+        <div class="row info_main_row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="info_links">
+              <h4>
+                QUICK LINKS
+              </h4>
+              <div class="info_links_menu">
+                <a class="" href="{{ route('compro')}}">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="{{ route('compro', ['section' => '#project_sections']) }}">Product Support</a>
+                <a class="" href="{{ route('compro', ['section' => '#about_section']) }}"> About</a>
+                <a class="" href="{{ route('compro', ['section' => '#client_section']) }}">Testimonial</a>
+                <a class="" href="contact.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+            <div class="info_post">
+              <h5>
+                INSTAGRAM FEEDS
+              </h5>
+              <div class="post_box">
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/instagram/testi1.jpeg')}}" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/instagram/testi2.jpeg')}}" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/testimoni6.webp')}}" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/testimoni7.webp')}}" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/testimoni4.webp')}}" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="{{asset('../assets/img/testimoni3.webp')}}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info_form">
+              <h4>
+                SIGN UP TO OUR NEWSLETTER
+              </h4>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      @endif
+      </div>
+      <div class="info_bottom">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info_logo">
+              <a href="">
+                <img src="{{asset('../assets/img/sintrac-white.png')}}" alt="" class="footer-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+            <div class="social_box">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/sintrac.id?igsh=MTQ3ZDB4MXlnZ2I2cQ==">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">PT. Sintrac Niaga Indonesia</a>
+      </p>
     </div>
   </footer>
-  <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
