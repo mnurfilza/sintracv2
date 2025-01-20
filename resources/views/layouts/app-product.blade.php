@@ -11,7 +11,7 @@
   @include('components.meta-tags')
 
 
-  <title>Sintrac</title>
+  <title>PT Sintrac Niaga Indonesia</title>
  
 
   <!-- bootstrap core css -->
