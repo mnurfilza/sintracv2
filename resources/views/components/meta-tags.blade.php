@@ -1,4 +1,4 @@
-<meta name="keywords" content="sewa alat berat, penyedia alat berat, rental excavator murah, jasa alat berat profesional, penyewaan crane, harga alat berat terbaik, sewa bulldozer harian, alat berat proyek konstruksi, sewa alat berat terpercaya, alat berat Indonesia" />
+<meta name="keywords" content="sewa alat berat, penyedia alat berat, rental excavator murah, jasa alat berat profesional, penyewaan crane, harga alat berat terbaik, sewa bulldozer harian, alat berat proyek konstruksi, sewa alat berat terpercaya, alat berat Indonesia,sintrac indonesia, sintrac,sintrac,sintrac" />
 <meta name="description" content="Sewa alat berat terpercaya untuk proyek konstruksi dan infrastruktur. Harga terbaik, layanan cepat, dan alat berat berkualitas tinggi. Hubungi sekarang untuk penawaran khusus!" />
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Penyedia Alat Berat Indonesia" />
