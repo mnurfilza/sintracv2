@@ -9,3 +9,4 @@
 <meta property="og:url" content="https://www.sintracindonesia.co.id" />
 <meta property="og:description" content="Layanan penyewaan alat berat terbaik di Indonesia. Sewa alat berat untuk konstruksi Anda sekarang juga dan dapatkan penawaran eksklusif!" />
 <meta property="og:site_name" content="Penyedia Alat Berat" />
+<meta name="google-site-verification" content="wMiqBdAPRsJk26DYLZZkc2czBbv4_yHq_RquDoQE3u8" />
