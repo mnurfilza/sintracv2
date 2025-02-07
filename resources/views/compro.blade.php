@@ -13,8 +13,9 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>
-                      PT Sintrac Niaga Indonesia </h1>
+                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <br>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -33,9 +34,9 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>
-                      PT Sintrac Niaga Indonesia </h1>
-                    </h1>
+                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <br>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -54,8 +55,9 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>
-                      PT Sintrac Niaga Indonesia </h1>
+                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <br>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -74,8 +76,9 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>
-                      PT Sintrac Niaga Indonesia </h1>
+                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <br>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -94,8 +97,9 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>
-                      PT Sintrac Niaga Indonesia </h1>
+                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <br>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -524,7 +528,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Pelayanan sangat memuaskan! Alat beratnya berkualitas dan proses peminjamannya mudah. Pasti akan gunakan lagi untuk proyek berikutnya. Terima kasih!
+                      Pelayanan sangat memuaskan! Alat beratnya berkualitas dan proses rentalnya mudah. Pasti akan gunakan lagi untuk proyek berikutnya. Terima kasih!
                     </p>
                   </div>
                 </div>
@@ -553,7 +557,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Alat beratnya dalam kondisi sangat baik, dan proses peminjamannya cepat. Sangat membantu untuk proyek kami. Terima kasih atas pelayanannya!
+                      Alat beratnya dalam kondisi sangat baik, dan proses rentalnya cepat. Sangat membantu untuk proyek kami. Terima kasih atas pelayanannya!
                     </p>
                   </div>
                 </div>
@@ -611,7 +615,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Sangat puas dengan layanan peminjaman alat beratnya! Alat berfungsi dengan baik, dan prosesnya sangat praktis. Terima kasih banyak!
+                      Sangat puas dengan layanan rental alat beratnya! Alat berfungsi dengan baik, dan prosesnya sangat praktis. Terima kasih banyak!
                     </p>
                   </div>
                 </div>
@@ -669,7 +673,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Proses peminjaman cepat dan mudah. Alat beratnya sangat mendukung pekerjaan kami. Terima kasih atas pelayanannya!
+                      Proses rental cepat dan mudah. Alat beratnya sangat mendukung pekerjaan kami. Terima kasih atas pelayanannya!
                     </p>
                   </div>
                 </div>
@@ -698,7 +702,7 @@
                       <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
                     <p>
-                      Saya sangat puas dengan layanan peminjaman alat berat, Prosesnya sangat efisien dan timnya selalu responsif dalam membantu setiap kebutuhan kami. Alat berat yang disediakan dalam kondisi sangat baik
+                      Saya sangat puas dengan layanan rental alat berat, Prosesnya sangat efisien dan timnya selalu responsif dalam membantu setiap kebutuhan kami. Alat berat yang disediakan dalam kondisi sangat baik
                     </p>
                   </div>
                 </div>
