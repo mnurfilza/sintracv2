@@ -15,7 +15,7 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h2>Driving performance , delivering excellence</h2>
+                    <h1>Driving performance , delivering excellence</h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -36,7 +36,7 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h2>Driving performance , delivering excellence</h2>
+                    <h1>Driving performance , delivering excellence</h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -57,7 +57,7 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h2>Driving performance , delivering excellence</h2>
+                    <h1>Driving performance , delivering excellence</h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -78,7 +78,7 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h2>Driving performance , delivering excellence</h2>
+                    <h1>Driving performance , delivering excellence</h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
@@ -99,7 +99,7 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h2>Driving performance , delivering excellence</h2>
+                    <h1>Driving performance , delivering excellence</h1>
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Contact Us
