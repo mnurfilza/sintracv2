@@ -13,14 +13,14 @@
               <div class="row">
                 <div class="col-md-10 mx-auto">
                   <div class="detail-box">
-                    <h1>PT Sintrac Niaga Indonesia </h1>
+                    <h1 >PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h1>Driving performance , delivering excellence</h1>
+                    <h2 >Driving performance , delivering excellence</h2>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contact_section" class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#about_section" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -36,12 +36,12 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h1>Driving performance , delivering excellence</h1>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contact_section"class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#about_section" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -57,12 +57,12 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h1>Driving performance , delivering excellence</h1>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contact_section" class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#about_section" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -78,12 +78,12 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h1>Driving performance , delivering excellence</h1>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contact_section"class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#about_section" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -99,12 +99,12 @@
                   <div class="detail-box">
                     <h1>PT Sintrac Niaga Indonesia </h1>
                     <br>
-                    <h1>Driving performance , delivering excellence</h1>
+                    <h2>Driving performance , delivering excellence</h2>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contact_section" class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#about_section" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -787,7 +787,7 @@
   <!-- end why us section -->
 
   <!-- contact section -->
-  <section class="contact_section layout_padding-bottom">
+  <section class="contact_section layout_padding-bottom"  id='contact_section'>
     <div class="container-fluid">
       <div class="col-lg-4 col-md-5 offset-md-1">
         <div class="heading_container">
